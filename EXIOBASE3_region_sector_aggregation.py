@@ -16,7 +16,6 @@ sec_agg_vec = np.array([1,	1,	1,	2,	3,	3,	3,	3,	4,	5,	5,	5,	5,	4,	5,	4,	4,	6,	7,
 exio_agg = exio.calc_all().aggregate(sector_agg=sec_agg_vec,inplace=False)
 
 print("Sectors: {sec}".format(sec=exio_agg.get_sectors().tolist()))
-exio_agg.impacts.D_cba
 
 
 # # Region aggregation (K, RoW)
